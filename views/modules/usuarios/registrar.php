@@ -1,8 +1,8 @@
 <?php
 session_start();
-if (!$_SESSION['usuarioValido']) {
+/*if (!$_SESSION['usuarioValido']) {
     header('location:'. BASE_URL .'inicio');
-}
+}*/
 $usuarioControlador = new UsuarioController();
 $usuarioControlador->registrarUsuarioControlador();
 ?>
